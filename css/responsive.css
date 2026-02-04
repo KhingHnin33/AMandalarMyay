@@ -527,7 +527,7 @@
     top: 107px !important;}
         .mdy-imgs img {
         max-width: 154px;}
-            .about-mdy-p, .imgbox-right, .imgbox-right p {font-size: 13px; width: 308px !important;}
+            .about-mdy-p, .imgbox-right, .imgbox-right p {font-size: 13px; width: 100% !important;}
             .img-logo {
     width: 32px;
     height: 32px;}
@@ -561,21 +561,5 @@
    .relate-slider .swiper {
     margin-bottom: 0rem;
 }
-/* aboutkuthodaw.html */
-.img-boxes img {
-    border-radius: 5px;}
-    .img-boxes .img1, .img-boxes .img2, .img-boxes .img3 {
-        width: 98px;
-        height: 141px;
-    }
-.mdy-imgright3, .mdy-imgright4 , .mdy-imgright5, .mdy-imgright2  {
-    width: 132px;
-    height: 132px;
-}
-.about-imgbox .imgbox-left1.mdy-imgright3{display: none;}
-.mahar-txt p{width: 300px; padding: 0;}
-.imgbox-left1 {
-      width: 143px;}
-.mahar-txt .flex2{margin-top: 1.2rem;}
 
 }
