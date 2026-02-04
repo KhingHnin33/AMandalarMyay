@@ -440,3 +440,49 @@
 .box2-content h2{font-size: 1.3rem;}
 .box2-content p{font-size: 0.85rem;max-width: 400px;}
 }
+@media (min-width: 300px) and (max-width: 492px) {
+
+  .top-margin {margin-top: 3rem;}
+  .main-left .maintxt2 {  width: 300px;}
+  .flex-content2 {width: 300px;}
+  .flex-img1 .btn4 {padding: 10px 100px;}
+  .flex-img1 img { width: 32px;}
+  .main-right img {
+        width: 255px;
+        min-width: 339px;
+        padding-right: 10px;
+    }
+    .main-right {margin-top: 0rem;}
+        .sec-content .block3 p {
+        font-size: 19px;
+    }
+    .sec-content .hero-box1 {
+        width: 318px;
+        height: 155px;}
+        .third-content .block3 {
+        margin-top: 0rem;
+    }
+        .block3 p {
+        font-size: 17px;
+    }
+        .grid3 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .guide-txt {
+    flex-wrap: wrap;}
+    .guide-txt h5, .guide-txt p { font-size: .9rem;}
+      .guideline .guide {
+        width: 160px;
+        height: 156px;}
+        .guide p {
+    font-size: 12px;}
+        .foot-box {
+        width: 172px;}
+        .newsletter input {
+        width: 131px;}
+   .newsletter input::placeholder {
+        font-size: 11px;}
+    .up-arrow-page {
+    width: 41px;
+    height: 41px;}
+}
