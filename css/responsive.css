@@ -456,9 +456,7 @@
         .sec-content .block3 p {
         font-size: 19px;
     }
-    .sec-content .hero-box1 {
-        width: 318px;
-        height: 155px;}
+
         .third-content .block3 {
         margin-top: 0rem;
     }
@@ -485,4 +483,24 @@
     .up-arrow-page {
     width: 41px;
     height: 41px;}
+        .sec-content .hero-boxtxt .justify {
+        font-size: 12px;
+        margin-top: .3rem;
+    }
+    .sec-content .block2 {
+        width: 64px;}
+            .hero-boxtxt h4 {
+        font-size: 14px;
+    }
+    .sec-content .hero-box1 {
+        width: 294px;
+        height: 131px;
+    }
+        .sec-content .hero-boxtxt {
+        margin-top: 1rem;
+    }
+        .sec-content .block2 p {
+        font-size: 17px;
+        margin-top: 2.1rem;
+    }
 }
