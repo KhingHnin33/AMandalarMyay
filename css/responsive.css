@@ -155,11 +155,15 @@
 .search-icon, .save-icon, .user-icon, .nav_toggle{width: 35px; height: 40px;}
 .nav_link{padding: 0 .7rem; font-size: 16px;}
 .search-icon i, .save-icon span, .nav_toggle i{font-weight: 300;}
-.user-icon span{font-weight: 400;}
-/* nav-bar */
-.user-icon p{display: none;}
+    .user-icon i {
+        font-weight: 400;
+        font-size: 30px;
+        margin-top: 5px;
+    }/* nav-bar */
+.user-icon p, .u2{display: none;}
+.u1{display: block; width: 30px;}
 .user-icon{background-color: transparent;margin-left: 1px;}
-.user-icon span{color: #000;}
+.user-icon i{color: #000;}
 .user-icon:hover{background-color: #d9d9ded1;}
 .search-dropdown::before{right: 26px;}
 /* footer */
@@ -439,6 +443,8 @@
 .btn{padding: 9px;font-size: 16px;}
 .box2-content h2{font-size: 1.3rem;}
 .box2-content p{font-size: 0.85rem;max-width: 400px;}
+.u1{display: block; width: 30px;}
+
 }
 @media (min-width: 300px) and (max-width: 492px) {
 
