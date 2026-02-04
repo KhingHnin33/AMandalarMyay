@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-straight/css/uicons-solid-straight.css');
-*{user-select: none;cursor: pointer;font-family: "Poppins", sans-serif;padding: 0;margin: 0;text-decoration: none;outline: none;border: none;box-sizing: border-box;}
+*{cursor: pointer;font-family: "Poppins", sans-serif;padding: 0;margin: 0;text-decoration: none;outline: none;border: none;box-sizing: border-box;}
 html,body{scroll-behavior: smooth;overflow-x: hidden;}
 a{color: inherit;text-decoration: none;}
 :root{--color-hover: #edf0f3;--color-icon: #fff;--color-font: #fff;--color-primary: #7380ec;--color-red: #ff7782;--color-green: #41f1b6;--color-yellow: #ffbb55;--color-white: #fff;--color-info-dark: #7d8da1;--color-info-light: #dce1eb;--color-dark: #363949;--color-light: rgba(132, 139, 200, 0.18);--color-primary-variant: #111e88;--color-dark-variant: #677483;--color-background: #f6f6f9;--card-border-radius: 2rem;--border-radius-1: 0.4rem;--border-radius-2: 0.8rem;--border-radius-3: 1.2rem;--card-padding: 1.8rem;--padding-1: 1.2rem;--box-shadow: 0 2rem 3rem var(--color-light);--body-font: "Montserrat", san-serif;--header-height: 3.5rem;}
@@ -111,7 +111,7 @@ hr{background-color: black;}
 .about-swiper .card-image{height: 150px;}
 /* =======swiper 2 */
 .card-link{width: 100%;max-width: 300px;}
-.card-link{user-select: none;width: 100%;max-width: 400px;display: block;background-color: #fff;padding: 7px;border-radius: 16px;text-decoration: none;transition: 0.2s ease;margin: 10px 0;border: 2px solid transparent;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;height: 100%;}
+.card-link{width: 100%;max-width: 400px;display: block;background-color: #fff;padding: 7px;border-radius: 16px;text-decoration: none;transition: 0.2s ease;margin: 10px 0;border: 2px solid transparent;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;height: 100%;}
 .card-link:active{cursor: grabbing;}
 .card-link:hover{border: 2px solid #3498db;}
 .card-link:hover .card-button{color: #fff;background-color: #4bb1f6;}
@@ -359,8 +359,9 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 .login-register a{padding-left: 4px;color: #7380ec;text-decoration: none;}
 .login-register a:hover{text-decoration: underline;}
 .user-icon p,.user-icon a{color: #fff;}
-.user-icon p{font-size: 14px;padding-left: 3px;}
-.user-icon{width: 120px;padding: 5px;background-color: #161616;color: #fff;font-weight: bold;margin-left: 10px;}
+.u1{display: none;}
+.user-icon p{font-size: 18px;padding-left: 3px; font-weight: 500;}
+.user-icon{width: 120px;padding: 5px;background-color: #161616;color: #fff;font-weight: bold;margin-left: 10px; font-size: 25px;}
 .margin7{margin-left: 2rem; margin-bottom: 1rem;}
 /*========welcome page============ */
 .welcome-img{position: absolute;object-fit: cover;width: 100%;height: 100%;}
