@@ -509,4 +509,61 @@
         font-size: 17px;
         margin-top: 2.1rem;
     }
+
+    /* About.html */
+        .about-tabs .list-none {
+        margin-left: 9%;
+    }
+    .link-dropdown summary {
+         width: 278px;
+    padding: 10px 35px 5px 16px;}
+   .mdy-txtdata h2{    font-size: 1.1rem;}
+   .img-list img {
+    width: 330px;
+    height: 100%;}
+    .img-slider {
+    height: 228px;}
+    .img-slider .buttons {
+    top: 107px !important;}
+        .mdy-imgs img {
+        max-width: 154px;}
+            .about-mdy-p, .imgbox-right, .imgbox-right p {font-size: 13px; width: 100% !important;}
+            .img-logo {
+    width: 32px;
+    height: 32px;}
+            .about-mdy {
+    padding: 1rem 1rem 1rem 2rem;
+}
+    .mdy-cities{gap: 0rem;}
+    .mdy-cities .imgbox-left {
+        margin-top: 1.1rem;
+    }
+    .videobox, .img6 {
+        width: 98% !important;
+        height: 206px !important;
+    }
+    .videobox video {
+    height: 189px;}
+        .grid1 {
+        gap: 0rem;}
+    .videobox{padding: 0;}
+    .relate-slider {
+    margin-top: 4rem;
+}
+    .about-swiper .card-link {
+        height: 257px;
+        margin-left: 4px;
+        width: 297px;
+    }
+.about-swiper .badge {
+        margin: 6px 3px 18px;
+    }
+   .relate-slider .swiper {
+    margin-bottom: 0rem;
+}
+
+
+
+
+
 }
