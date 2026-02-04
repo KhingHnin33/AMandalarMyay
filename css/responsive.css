@@ -568,9 +568,14 @@
         width: 98px;
         height: 141px;
     }
-.mdy-imgright3, .mdy-imgright4 {
+.mdy-imgright3, .mdy-imgright4 , .mdy-imgright5, .mdy-imgright2  {
     width: 132px;
     height: 132px;
 }
+.about-imgbox .imgbox-left1.mdy-imgright3{display: none;}
+.mahar-txt p{width: 300px; padding: 0;}
+.imgbox-left1 {
+      width: 143px;}
+.mahar-txt .flex2{margin-top: 1.2rem;}
 
 }
