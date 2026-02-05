@@ -42,6 +42,14 @@
     align-items: center;
     gap: 6px;
 }
+  .agree-check .p-small{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+}       
 	</style>
 
 </head>
@@ -81,9 +89,11 @@
                         </div>
                     </div>
 
-                    <div class="user-icon">
+                     <div class="user-icon">
                         <a href="SignInOut.html" class="flex user-signin">
-                            <span class="material-symbols-outlined user-icon-span">person</span>
+                           <img src="./img/user-person (2).svg" class="user-icon-span u2" alt="user">
+
+                            <img src="./img/user-person.svg" class="user-icon-span u1" alt="user">
                             <p>Sign In</p>
                         </a>
 
@@ -157,12 +167,12 @@
     <!-- SignIn Script -->
     <div class="wrapper">
 
-        <div class="sign-form signin">
+        <div class="sign-form signin" >
             <h2>Sign In to Your Account</h2>
-            <form action="LoginServlet" method="post">
+            <form action="SignInResult.html" id="SignInForm" method="get">
                 <div class="sign-input marg10">
                     <span class="sign-icon"><ion-icon name="mail-outline"></ion-icon></span>
-                    <input type="email"  name="email" required placeholder=" " autocomplete="off">
+                    <input type="email" id="email"  name="email" required placeholder=" " autocomplete="off">
                     <label for="">Email</label>
                 </div>
                 <div class="sign-input marg20">
@@ -194,10 +204,10 @@
 
         <div class="sign-form register">
             <h2>Create An Account</h2>
-            <form action="RegisterServlet" method="post">
+            <form action="RegisterResult.html" id="RegisterForm" method="get">
                 <div class="sign-input marg10">
                     <span class="sign-icon"><ion-icon name="person-outline"></ion-icon></span>
-                    <input type="text" name="username" required placeholder=" " autocomplete="off">
+                    <input type="text" id="username" name="username" required placeholder=" " autocomplete="off">
                     <label for="">Username</label>
                 </div>
                 <div class="sign-input marg10">
@@ -387,6 +397,24 @@
           });
         }
       });
+</script>
+<script>
+
+
+  document.getElementById('SignInForm').addEventListener('submit', function() {
+    const email = document.getElementById('email').value.trim();
+    if (email) {
+        
+      sessionStorage.setItem('submittedEmail', email);
+    }
+  });
+  document.getElementById('RegisterForm').addEventListener('submit', function() {
+    const user = document.getElementById('username').value.trim();
+    if (user) {
+        
+      sessionStorage.setItem('submittedName', user);
+    }
+  });
 </script>
 
 
